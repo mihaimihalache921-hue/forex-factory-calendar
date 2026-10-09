@@ -1,0 +1,78 @@
+name: Test Forex Factory connection
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  test-forex-factory:
+    runs-on: ubuntu-latest
+    timeout-minutes: 3
+    steps:
+      - name: Fetch Forex Factory JSON once
+        shell: bash
+        run: |
+          python3 - <<'PY'
+          import collections
+          import json
+          import sys
+          import urllib.error
+          import urllib.request
+          from datetime import datetime
+
+          url = "https://nfs.faireconomy.media/ff_calendar_thisweek.json"
+          request = urllib.request.Request(
+              url,
+              headers={
+                  "Accept": "application/json",
+                  "User-Agent": "Mozilla/5.0 (compatible; FF-Calendar-Integration-Test/1.0)",
+              },
+          )
+          try:
+              with urllib.request.urlopen(request, timeout=25) as response:
+                  status = response.status
+                  payload = response.read(2_000_000)
+          except urllib.error.HTTPError as exc:
+              print(f"HTTP {exc.code}: Forex Factory rejected this request.")
+              if exc.code == 429:
+                  print("Rate limited. Do not repeatedly rerun this test.")
+              elif exc.code == 403:
+                  print("Access forbidden from this runner.")
+              sys.exit(1)
+          except Exception as exc:
+              print(f"Connection failed: {type(exc).__name__}: {exc}")
+              sys.exit(1)
+
+          if status != 200:
+              print(f"Unexpected HTTP status: {status}")
+              sys.exit(1)
+
+          try:
+              events = json.loads(payload)
+          except (ValueError, UnicodeError) as exc:
+              print(f"Invalid JSON: {exc}")
+              sys.exit(1)
+
+          if not isinstance(events, list) or not events:
+              print("JSON is empty or not a list; cannot verify a complete calendar.")
+              sys.exit(1)
+
+          dates = []
+          impacts = collections.Counter()
+          for idx, event in enumerate(events):
+              if not isinstance(event, dict) or not all(
+                  k in event for k in ("title", "country", "date", "impact")
+              ):
+                  print(f"Unexpected event structure at index {idx}")
+                  sys.exit(1)
+              dates.append(datetime.fromisoformat(event["date"]).date().isoformat())
+              impacts[str(event["impact"])] += 1
+
+          print("HTTP 200: connection succeeded")
+          print(f"Events: {len(events)}")
+          print(f"Dates in feed: {min(dates)} through {max(dates)}")
+          print(f"Impacts: {dict(impacts)}")
+          print("TEST ONLY: no files uploaded, no spreadsheet changes.")
+          PY
