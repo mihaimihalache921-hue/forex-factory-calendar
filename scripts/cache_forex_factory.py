@@ -91,11 +91,13 @@ def main() -> None:
         old = json.loads(path.read_text(encoding="utf-8"))
         changed = old.get("events") != events
 
+    # Preserve the time of the latest successful source check, even if events are unchanged.
+    # This lets the spreadsheet distinguish a completed date from a partial same-day snapshot.
+    save_json(path, archive)
     if changed:
-        save_json(path, archive)
         print(f"Saved {len(events)} events to {path.relative_to(ROOT)}")
     else:
-        print(f"Unchanged events in {path.relative_to(ROOT)}")
+        print(f"Refreshed verification time for {path.relative_to(ROOT)}")
 
     # A successful check is recorded even if the events were unchanged.
     save_json(
