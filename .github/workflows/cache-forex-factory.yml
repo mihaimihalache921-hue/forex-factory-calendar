@@ -1,0 +1,37 @@
+name: Cache Forex Factory week
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: forex-factory-cache
+  cancel-in-progress: false
+
+jobs:
+  cache-calendar:
+    runs-on: ubuntu-latest
+    timeout-minutes: 4
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          persist-credentials: true
+
+      - name: Fetch and validate current Forex Factory week
+        run: python3 scripts/cache_forex_factory.py
+
+      - name: Commit public calendar snapshot only if changed
+        shell: bash
+        run: |
+          git add data/latest.json data/weeks/
+          if git diff --cached --quiet; then
+            echo "No calendar changes."
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git commit -m "Update Forex Factory weekly cache"
+          git push
