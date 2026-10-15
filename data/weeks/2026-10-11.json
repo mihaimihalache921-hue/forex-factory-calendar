@@ -6,7 +6,7 @@
     "2026-10-11",
     "2026-10-17"
   ],
-  "fetched_at_utc": "2026-10-14T19:12:20+00:00",
+  "fetched_at_utc": "2026-10-15T01:12:12+00:00",
   "events": [
     {
       "title": "Bank Holiday",
@@ -701,7 +701,7 @@
       "country": "USD",
       "date": "2026-10-15T12:00:00-04:00",
       "impact": "Low",
-      "forecast": "-0.2M",
+      "forecast": "0.2M",
       "previous": "-3.2M"
     },
     {
