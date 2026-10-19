@@ -6,7 +6,7 @@
     "2026-10-18",
     "2026-10-24"
   ],
-  "fetched_at_utc": "2026-10-19T01:15:29+00:00",
+  "fetched_at_utc": "2026-10-19T07:27:28+00:00",
   "events": [
     {
       "title": "IMF Meetings",
@@ -115,7 +115,7 @@
     {
       "title": "Foreign Direct Investment ytd/y",
       "country": "CNY",
-      "date": "2026-10-19T02:02:00-04:00",
+      "date": "2026-10-19T05:10:00-04:00",
       "impact": "Low",
       "forecast": "",
       "previous": "-5.3%"
