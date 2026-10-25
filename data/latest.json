@@ -1,14 +1,14 @@
 {
   "source": "https://nfs.faireconomy.media/ff_calendar_thisweek.json",
-  "last_success_utc": "2026-10-25T01:14:13+00:00",
-  "week_start_source_timezone": "2026-10-18",
-  "week_file": "data/weeks/2026-10-18.json",
-  "event_count": 86,
+  "last_success_utc": "2026-10-25T07:18:06+00:00",
+  "week_start_source_timezone": "2026-10-25",
+  "week_file": "data/weeks/2026-10-25.json",
+  "event_count": 96,
   "impact_counts": {
-    "Low": 63,
-    "High": 5,
-    "Medium": 15,
-    "Holiday": 3
+    "Holiday": 1,
+    "Low": 62,
+    "Medium": 10,
+    "High": 23
   },
   "note": "Cached public source feed; not a verification of a trade or of economic-calendar completion."
 }
