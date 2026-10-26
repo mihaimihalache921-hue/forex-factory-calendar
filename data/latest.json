@@ -1,6 +1,6 @@
 {
   "source": "https://nfs.faireconomy.media/ff_calendar_thisweek.json",
-  "last_success_utc": "2026-10-26T07:31:21+00:00",
+  "last_success_utc": "2026-10-26T15:03:30+00:00",
   "week_start_source_timezone": "2026-10-25",
   "week_file": "data/weeks/2026-10-25.json",
   "event_count": 96,
