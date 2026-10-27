@@ -6,7 +6,7 @@
     "2026-10-25",
     "2026-10-30"
   ],
-  "fetched_at_utc": "2026-10-26T19:22:09+00:00",
+  "fetched_at_utc": "2026-10-27T01:21:29+00:00",
   "events": [
     {
       "title": "Bank Holiday",
@@ -69,7 +69,7 @@
       "country": "EUR",
       "date": "2026-10-27T04:00:00-04:00",
       "impact": "Low",
-      "forecast": "9.8%",
+      "forecast": "9.9%",
       "previous": "9.9%"
     },
     {
@@ -77,7 +77,7 @@
       "country": "EUR",
       "date": "2026-10-27T05:00:00-04:00",
       "impact": "Low",
-      "forecast": "3.6%",
+      "forecast": "3.5%",
       "previous": "3.5%"
     },
     {
@@ -109,7 +109,7 @@
       "country": "USD",
       "date": "2026-10-27T08:30:00-04:00",
       "impact": "Low",
-      "forecast": "1.8%",
+      "forecast": "2.0%",
       "previous": "0.0%"
     },
     {
@@ -117,7 +117,7 @@
       "country": "USD",
       "date": "2026-10-27T09:00:00-04:00",
       "impact": "Low",
-      "forecast": "0.1%",
+      "forecast": "0.2%",
       "previous": "0.3%"
     },
     {
@@ -125,7 +125,7 @@
       "country": "USD",
       "date": "2026-10-27T09:00:00-04:00",
       "impact": "Low",
-      "forecast": "2.7%",
+      "forecast": "2.6%",
       "previous": "2.5%"
     },
     {
@@ -133,7 +133,7 @@
       "country": "USD",
       "date": "2026-10-27T10:00:00-04:00",
       "impact": "Medium",
-      "forecast": "80.7",
+      "forecast": "81.2",
       "previous": "81.9"
     },
     {
@@ -141,7 +141,7 @@
       "country": "USD",
       "date": "2026-10-27T10:00:00-04:00",
       "impact": "Low",
-      "forecast": "649K",
+      "forecast": "651K",
       "previous": "684K"
     },
     {
@@ -149,7 +149,7 @@
       "country": "USD",
       "date": "2026-10-27T10:00:00-04:00",
       "impact": "Low",
-      "forecast": "1",
+      "forecast": "0",
       "previous": "-2"
     },
     {
@@ -221,7 +221,7 @@
       "country": "EUR",
       "date": "2026-10-28T03:00:00-04:00",
       "impact": "Low",
-      "forecast": "-30.0",
+      "forecast": "-30.1",
       "previous": "-30.6"
     },
     {
@@ -261,7 +261,7 @@
       "country": "USD",
       "date": "2026-10-28T08:30:00-04:00",
       "impact": "Low",
-      "forecast": "-130.8B",
+      "forecast": "-130.4B",
       "previous": "-132.6B"
     },
     {
@@ -269,7 +269,7 @@
       "country": "USD",
       "date": "2026-10-28T08:30:00-04:00",
       "impact": "Low",
-      "forecast": "0.4%",
+      "forecast": "0.5%",
       "previous": "0.7%"
     },
     {
@@ -357,7 +357,7 @@
       "country": "AUD",
       "date": "2026-10-28T20:30:00-04:00",
       "impact": "Low",
-      "forecast": "1.8%",
+      "forecast": "1.3%",
       "previous": "5.7%"
     },
     {
@@ -406,7 +406,7 @@
       "date": "2026-10-29T05:33:00-04:00",
       "impact": "Low",
       "forecast": "",
-      "previous": ""
+      "previous": "4.58|1.6"
     },
     {
       "title": "Advance GDP q/q",
@@ -429,7 +429,7 @@
       "country": "USD",
       "date": "2026-10-29T08:30:00-04:00",
       "impact": "Medium",
-      "forecast": "3.5%",
+      "forecast": "3.3%",
       "previous": "6.2%"
     },
     {
@@ -533,7 +533,7 @@
       "country": "JPY",
       "date": "2026-10-29T19:50:00-04:00",
       "impact": "Low",
-      "forecast": "1.3%",
+      "forecast": "1.2%",
       "previous": "-1.7%"
     },
     {
@@ -541,7 +541,7 @@
       "country": "JPY",
       "date": "2026-10-29T19:50:00-04:00",
       "impact": "Low",
-      "forecast": "3.4%",
+      "forecast": "3.3%",
       "previous": "2.7%"
     },
     {
@@ -589,7 +589,7 @@
       "country": "JPY",
       "date": "2026-10-30T01:00:00-04:00",
       "impact": "Low",
-      "forecast": "2.5%",
+      "forecast": "2.7%",
       "previous": "6.1%"
     },
     {
@@ -601,19 +601,11 @@
       "previous": ""
     },
     {
-      "title": "German Prelim CPI m/m",
-      "country": "EUR",
-      "date": "2026-10-30T02:29:00-04:00",
-      "impact": "Medium",
-      "forecast": "0.1%",
-      "previous": "0.6%"
-    },
-    {
       "title": "French Consumer Spending m/m",
       "country": "EUR",
       "date": "2026-10-30T02:30:00-04:00",
       "impact": "Low",
-      "forecast": "0.2%",
+      "forecast": "0.1%",
       "previous": "-0.5%"
     },
     {
@@ -637,8 +629,16 @@
       "country": "GBP",
       "date": "2026-10-30T03:00:00-04:00",
       "impact": "Low",
-      "forecast": "-0.2%",
+      "forecast": "-0.1%",
       "previous": "-0.2%"
+    },
+    {
+      "title": "German Prelim CPI m/m",
+      "country": "EUR",
+      "date": "2026-10-30T03:29:00-04:00",
+      "impact": "Medium",
+      "forecast": "0.1%",
+      "previous": "0.6%"
     },
     {
       "title": "French Prelim CPI m/m",
@@ -661,7 +661,7 @@
       "country": "CHF",
       "date": "2026-10-30T04:00:00-04:00",
       "impact": "Low",
-      "forecast": "108.0",
+      "forecast": "108.1",
       "previous": "109.1"
     },
     {
@@ -709,7 +709,7 @@
       "country": "EUR",
       "date": "2026-10-30T06:00:00-04:00",
       "impact": "Low",
-      "forecast": "0.0%",
+      "forecast": "0.1%",
       "previous": "0.7%"
     },
     {
@@ -749,7 +749,7 @@
       "country": "USD",
       "date": "2026-10-30T09:45:00-04:00",
       "impact": "Low",
-      "forecast": "54.8",
+      "forecast": "55.8",
       "previous": "58.8"
     },
     {
@@ -773,7 +773,7 @@
       "country": "CNY",
       "date": "2026-10-30T21:30:00-04:00",
       "impact": "Low",
-      "forecast": "50.1",
+      "forecast": "49.9",
       "previous": "50.1"
     },
     {
@@ -781,7 +781,7 @@
       "country": "CNY",
       "date": "2026-10-30T21:30:00-04:00",
       "impact": "Low",
-      "forecast": "50.5",
+      "forecast": "50.0",
       "previous": "50.2"
     }
   ]
