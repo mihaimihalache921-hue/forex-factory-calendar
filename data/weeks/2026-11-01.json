@@ -6,7 +6,7 @@
     "2026-11-01",
     "2026-11-06"
   ],
-  "fetched_at_utc": "2026-11-02T01:44:15+00:00",
+  "fetched_at_utc": "2026-11-02T07:57:25+00:00",
   "events": [
     {
       "title": "Daylight Saving Time Shift",
@@ -75,7 +75,7 @@
     {
       "title": "Retail Sales y/y",
       "country": "CHF",
-      "date": "2026-11-02T02:30:00-05:00",
+      "date": "2026-11-02T02:33:00-05:00",
       "impact": "Low",
       "forecast": "3.0%",
       "previous": "3.2%"
