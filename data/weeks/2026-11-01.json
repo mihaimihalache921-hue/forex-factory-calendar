@@ -6,7 +6,7 @@
     "2026-11-01",
     "2026-11-06"
   ],
-  "fetched_at_utc": "2026-11-03T07:50:09+00:00",
+  "fetched_at_utc": "2026-11-03T13:45:48+00:00",
   "events": [
     {
       "title": "Daylight Saving Time Shift",
@@ -259,7 +259,7 @@
     {
       "title": "10-y Bond Auction",
       "country": "GBP",
-      "date": "2026-11-03T05:33:00-05:00",
+      "date": "2026-11-03T05:02:00-05:00",
       "impact": "Low",
       "forecast": "",
       "previous": "5.42|3.6"
@@ -509,7 +509,7 @@
       "country": "USD",
       "date": "2026-11-04T10:30:00-05:00",
       "impact": "Low",
-      "forecast": "",
+      "forecast": "-0.1M",
       "previous": "-1.9M"
     },
     {
