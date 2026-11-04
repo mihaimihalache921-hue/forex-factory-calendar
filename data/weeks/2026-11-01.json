@@ -6,7 +6,7 @@
     "2026-11-01",
     "2026-11-06"
   ],
-  "fetched_at_utc": "2026-11-03T19:30:25+00:00",
+  "fetched_at_utc": "2026-11-04T01:41:11+00:00",
   "events": [
     {
       "title": "Daylight Saving Time Shift",
@@ -509,7 +509,7 @@
       "country": "USD",
       "date": "2026-11-04T10:30:00-05:00",
       "impact": "Low",
-      "forecast": "-0.1M",
+      "forecast": "-1.7M",
       "previous": "-1.9M"
     },
     {
@@ -717,7 +717,7 @@
       "country": "USD",
       "date": "2026-11-05T10:30:00-05:00",
       "impact": "Low",
-      "forecast": "",
+      "forecast": "81B",
       "previous": "80B"
     },
     {
