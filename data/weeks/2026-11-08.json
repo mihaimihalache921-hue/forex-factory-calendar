@@ -6,7 +6,7 @@
     "2026-11-08",
     "2026-11-14"
   ],
-  "fetched_at_utc": "2026-11-12T07:41:03+00:00",
+  "fetched_at_utc": "2026-11-12T20:24:18+00:00",
   "events": [
     {
       "title": "RBA Assist Gov Hunter Speaks",
@@ -545,22 +545,6 @@
       "previous": ""
     },
     {
-      "title": "M2 Money Supply y/y",
-      "country": "CNY",
-      "date": "2026-11-12T04:03:00-05:00",
-      "impact": "Low",
-      "forecast": "7.2%",
-      "previous": "7.2%"
-    },
-    {
-      "title": "New Loans",
-      "country": "CNY",
-      "date": "2026-11-12T04:03:00-05:00",
-      "impact": "Low",
-      "forecast": "80B",
-      "previous": "1080B"
-    },
-    {
       "title": "Building Permits m/m",
       "country": "CAD",
       "date": "2026-11-12T08:30:00-05:00",
@@ -599,14 +583,6 @@
       "impact": "Low",
       "forecast": "",
       "previous": ""
-    },
-    {
-      "title": "Mortgage Delinquencies",
-      "country": "USD",
-      "date": "2026-11-12T10:00:00-05:00",
-      "impact": "Low",
-      "forecast": "",
-      "previous": "4.37%"
     },
     {
       "title": "CB Leading Index m/m",
@@ -753,6 +729,22 @@
       "previous": "-6.8B"
     },
     {
+      "title": "M2 Money Supply y/y",
+      "country": "CNY",
+      "date": "2026-11-13T05:03:00-05:00",
+      "impact": "Low",
+      "forecast": "7.2%",
+      "previous": "7.2%"
+    },
+    {
+      "title": "New Loans",
+      "country": "CNY",
+      "date": "2026-11-13T05:03:00-05:00",
+      "impact": "Low",
+      "forecast": "80B",
+      "previous": "1080B"
+    },
+    {
       "title": "Manufacturing Sales m/m",
       "country": "CAD",
       "date": "2026-11-13T08:30:00-05:00",
@@ -807,6 +799,14 @@
       "impact": "Low",
       "forecast": "",
       "previous": ""
+    },
+    {
+      "title": "Mortgage Delinquencies",
+      "country": "USD",
+      "date": "2026-11-13T10:15:00-05:00",
+      "impact": "Low",
+      "forecast": "",
+      "previous": "4.37%"
     },
     {
       "title": "Natural Gas Storage",
