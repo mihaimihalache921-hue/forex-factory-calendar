@@ -1,11 +1,11 @@
 {
   "source": "https://nfs.faireconomy.media/ff_calendar_thisweek.json",
-  "last_success_utc": "2026-11-13T07:13:32+00:00",
+  "last_success_utc": "2026-11-13T19:59:33+00:00",
   "week_start_source_timezone": "2026-11-08",
   "week_file": "data/weeks/2026-11-08.json",
-  "event_count": 106,
+  "event_count": 105,
   "impact_counts": {
-    "Low": 92,
+    "Low": 91,
     "Medium": 6,
     "High": 5,
     "Holiday": 3
