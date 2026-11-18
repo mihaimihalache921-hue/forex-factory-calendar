@@ -6,7 +6,7 @@
     "2026-11-15",
     "2026-11-20"
   ],
-  "fetched_at_utc": "2026-11-18T07:54:30+00:00",
+  "fetched_at_utc": "2026-11-18T20:52:21+00:00",
   "events": [
     {
       "title": "BusinessNZ Services Index",
@@ -721,14 +721,6 @@
       "previous": "4.7%"
     },
     {
-      "title": "Foreign Direct Investment ytd/y",
-      "country": "CNY",
-      "date": "2026-11-19T02:02:00-05:00",
-      "impact": "Low",
-      "forecast": "",
-      "previous": "-4.3%"
-    },
-    {
       "title": "Current Account",
       "country": "EUR",
       "date": "2026-11-19T04:00:00-05:00",
@@ -935,6 +927,14 @@
       "impact": "Low",
       "forecast": "18.0B",
       "previous": "24.5B"
+    },
+    {
+      "title": "Foreign Direct Investment ytd/y",
+      "country": "CNY",
+      "date": "2026-11-20T02:02:00-05:00",
+      "impact": "Low",
+      "forecast": "",
+      "previous": "-4.3%"
     },
     {
       "title": "ECB President Lagarde Speaks",
