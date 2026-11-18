@@ -6,7 +6,7 @@
     "2026-11-15",
     "2026-11-20"
   ],
-  "fetched_at_utc": "2026-11-17T21:17:52+00:00",
+  "fetched_at_utc": "2026-11-18T07:54:30+00:00",
   "events": [
     {
       "title": "BusinessNZ Services Index",
@@ -459,7 +459,7 @@
     {
       "title": "MI Leading Index m/m",
       "country": "AUD",
-      "date": "2026-11-17T18:30:00-05:00",
+      "date": "2026-11-17T18:39:00-05:00",
       "impact": "Low",
       "forecast": "",
       "previous": "-0.1%"
@@ -527,14 +527,6 @@
       "impact": "Low",
       "forecast": "4.1%",
       "previous": "3.9%"
-    },
-    {
-      "title": "Foreign Direct Investment ytd/y",
-      "country": "CNY",
-      "date": "2026-11-18T02:02:00-05:00",
-      "impact": "Low",
-      "forecast": "",
-      "previous": "-4.3%"
     },
     {
       "title": "BOE Gov Bailey Speaks",
@@ -621,7 +613,7 @@
       "country": "USD",
       "date": "2026-11-18T10:00:00-05:00",
       "impact": "Low",
-      "forecast": "-1.8%",
+      "forecast": "-2.0%",
       "previous": "-7.3%"
     },
     {
@@ -629,7 +621,7 @@
       "country": "USD",
       "date": "2026-11-18T10:30:00-05:00",
       "impact": "Low",
-      "forecast": "-0.3M",
+      "forecast": "0.4M",
       "previous": "4.7M"
     },
     {
@@ -729,6 +721,14 @@
       "previous": "4.7%"
     },
     {
+      "title": "Foreign Direct Investment ytd/y",
+      "country": "CNY",
+      "date": "2026-11-19T02:02:00-05:00",
+      "impact": "Low",
+      "forecast": "",
+      "previous": "-4.3%"
+    },
+    {
       "title": "Current Account",
       "country": "EUR",
       "date": "2026-11-19T04:00:00-05:00",
@@ -765,7 +765,7 @@
       "country": "CAD",
       "date": "2026-11-19T08:30:00-05:00",
       "impact": "Low",
-      "forecast": "1.2%",
+      "forecast": "0.4%",
       "previous": "2.0%"
     },
     {
@@ -773,7 +773,7 @@
       "country": "CAD",
       "date": "2026-11-19T08:30:00-05:00",
       "impact": "Low",
-      "forecast": "2.0%",
+      "forecast": "0.9%",
       "previous": "4.8%"
     },
     {
@@ -789,7 +789,7 @@
       "country": "USD",
       "date": "2026-11-19T08:30:00-05:00",
       "impact": "Medium",
-      "forecast": "19.2",
+      "forecast": "20.6",
       "previous": "20.9"
     },
     {
@@ -797,7 +797,7 @@
       "country": "USD",
       "date": "2026-11-19T08:30:00-05:00",
       "impact": "Medium",
-      "forecast": "199K",
+      "forecast": "198K",
       "previous": "200K"
     },
     {
@@ -837,7 +837,7 @@
       "country": "USD",
       "date": "2026-11-19T10:30:00-05:00",
       "impact": "Low",
-      "forecast": "",
+      "forecast": "25B",
       "previous": "61B"
     },
     {
@@ -989,7 +989,7 @@
       "country": "USD",
       "date": "2026-11-20T10:00:00-05:00",
       "impact": "Medium",
-      "forecast": "52.1",
+      "forecast": "51.7",
       "previous": "51.0"
     },
     {
