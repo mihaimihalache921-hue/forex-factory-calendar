@@ -6,7 +6,7 @@
     "2026-11-15",
     "2026-11-20"
   ],
-  "fetched_at_utc": "2026-11-20T07:42:47+00:00",
+  "fetched_at_utc": "2026-11-20T20:41:50+00:00",
   "events": [
     {
       "title": "BusinessNZ Services Index",
@@ -279,6 +279,14 @@
       "impact": "Low",
       "forecast": "25.4K",
       "previous": "30.3K"
+    },
+    {
+      "title": "HMRC Payrolls Change",
+      "country": "GBP",
+      "date": "2026-11-17T02:00:00-05:00",
+      "impact": "Low",
+      "forecast": "9K",
+      "previous": "13K"
     },
     {
       "title": "Unemployment Rate",
@@ -929,14 +937,6 @@
       "previous": "24.5B"
     },
     {
-      "title": "Foreign Direct Investment ytd/y",
-      "country": "CNY",
-      "date": "2026-11-20T02:02:00-05:00",
-      "impact": "Low",
-      "forecast": "",
-      "previous": "-4.3%"
-    },
-    {
       "title": "ECB President Lagarde Speaks",
       "country": "EUR",
       "date": "2026-11-20T03:15:00-05:00",
@@ -999,6 +999,14 @@
       "impact": "Medium",
       "forecast": "",
       "previous": "4.3%"
+    },
+    {
+      "title": "President Trump Speaks",
+      "country": "USD",
+      "date": "2026-11-20T12:00:00-05:00",
+      "impact": "Medium",
+      "forecast": "",
+      "previous": ""
     },
     {
       "title": "FOMC Member Cook Speaks",
