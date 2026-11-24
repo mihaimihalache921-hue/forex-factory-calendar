@@ -6,7 +6,7 @@
     "2026-11-22",
     "2026-11-27"
   ],
-  "fetched_at_utc": "2026-11-23T08:09:30+00:00",
+  "fetched_at_utc": "2026-11-24T00:18:57+00:00",
   "events": [
     {
       "title": "Core Retail Sales q/q",
@@ -123,7 +123,7 @@
     {
       "title": "Corporate Profits q/q",
       "country": "CAD",
-      "date": "2026-11-23T08:30:00-05:00",
+      "date": "2026-11-23T08:32:00-05:00",
       "impact": "Low",
       "forecast": "",
       "previous": "8.7%"
@@ -161,19 +161,11 @@
       "previous": "53.3"
     },
     {
-      "title": "Foreign Direct Investment ytd/y",
-      "country": "CNY",
-      "date": "2026-11-24T02:02:00-05:00",
-      "impact": "Low",
-      "forecast": "",
-      "previous": "-4.3%"
-    },
-    {
       "title": "German ifo Business Climate",
       "country": "EUR",
       "date": "2026-11-24T04:00:00-05:00",
       "impact": "Low",
-      "forecast": "90.6",
+      "forecast": "90.5",
       "previous": "90.2"
     },
     {
@@ -181,7 +173,7 @@
       "country": "GBP",
       "date": "2026-11-24T06:00:00-05:00",
       "impact": "Low",
-      "forecast": "-24",
+      "forecast": "-27",
       "previous": "-10"
     },
     {
@@ -213,7 +205,7 @@
       "country": "EUR",
       "date": "2026-11-24T09:00:00-05:00",
       "impact": "Low",
-      "forecast": "-9.3",
+      "forecast": "-9.4",
       "previous": "-9.8"
     },
     {
@@ -237,7 +229,7 @@
       "country": "USD",
       "date": "2026-11-24T10:00:00-05:00",
       "impact": "Medium",
-      "forecast": "92.1",
+      "forecast": "92.4",
       "previous": "91.7"
     },
     {
@@ -245,7 +237,7 @@
       "country": "USD",
       "date": "2026-11-24T10:00:00-05:00",
       "impact": "Low",
-      "forecast": "-3",
+      "forecast": "-2",
       "previous": "-2"
     },
     {
@@ -285,7 +277,7 @@
       "country": "AUD",
       "date": "2026-11-24T19:30:00-05:00",
       "impact": "High",
-      "forecast": "4.8%",
+      "forecast": "4.7%",
       "previous": "4.3%"
     },
     {
@@ -361,14 +353,6 @@
       "previous": "2.3%"
     },
     {
-      "title": "Unemployment Claims",
-      "country": "USD",
-      "date": "2026-11-25T08:30:00-05:00",
-      "impact": "Medium",
-      "forecast": "201K",
-      "previous": "203K"
-    },
-    {
       "title": "Core Durable Goods Orders m/m",
       "country": "USD",
       "date": "2026-11-25T08:30:00-05:00",
@@ -381,7 +365,7 @@
       "country": "USD",
       "date": "2026-11-25T08:30:00-05:00",
       "impact": "Low",
-      "forecast": "0.5%",
+      "forecast": "0.7%",
       "previous": "1.8%"
     },
     {
@@ -401,11 +385,19 @@
       "previous": "0.5%"
     },
     {
+      "title": "Unemployment Claims",
+      "country": "USD",
+      "date": "2026-11-25T08:30:00-05:00",
+      "impact": "Low",
+      "forecast": "201K",
+      "previous": "203K"
+    },
+    {
       "title": "New Home Sales",
       "country": "USD",
       "date": "2026-11-25T10:00:00-05:00",
       "impact": "Low",
-      "forecast": "649K",
+      "forecast": "650K",
       "previous": "676K"
     },
     {
@@ -421,7 +413,7 @@
       "country": "USD",
       "date": "2026-11-25T12:00:00-05:00",
       "impact": "Low",
-      "forecast": "",
+      "forecast": "-19B",
       "previous": "20B"
     },
     {
@@ -437,7 +429,7 @@
       "country": "AUD",
       "date": "2026-11-25T19:30:00-05:00",
       "impact": "Low",
-      "forecast": "4.4%",
+      "forecast": "4.5%",
       "previous": "-3.6%"
     },
     {
@@ -517,7 +509,7 @@
       "country": "JPY",
       "date": "2026-11-26T18:30:00-05:00",
       "impact": "Medium",
-      "forecast": "2.9%",
+      "forecast": "3.0%",
       "previous": "2.6%"
     },
     {
@@ -525,7 +517,7 @@
       "country": "EUR",
       "date": "2026-11-27T02:45:00-05:00",
       "impact": "Low",
-      "forecast": "0.2%",
+      "forecast": "0.1%",
       "previous": "-0.5%"
     },
     {
@@ -541,7 +533,7 @@
       "country": "EUR",
       "date": "2026-11-27T02:45:00-05:00",
       "impact": "Low",
-      "forecast": "-0.1%",
+      "forecast": "-0.2%",
       "previous": "0.4%"
     },
     {
@@ -557,7 +549,7 @@
       "country": "EUR",
       "date": "2026-11-27T03:00:00-05:00",
       "impact": "Low",
-      "forecast": "4.8%",
+      "forecast": "4.7%",
       "previous": "4.9%"
     },
     {
@@ -589,7 +581,7 @@
       "country": "CAD",
       "date": "2026-11-27T08:30:00-05:00",
       "impact": "Low",
-      "forecast": "9.6B",
+      "forecast": "9.5B",
       "previous": "8.8B"
     },
     {
@@ -597,7 +589,7 @@
       "country": "USD",
       "date": "2026-11-27T08:30:00-05:00",
       "impact": "Low",
-      "forecast": "-134.4B",
+      "forecast": "-135.9B",
       "previous": "-134.9B"
     },
     {
@@ -605,7 +597,7 @@
       "country": "USD",
       "date": "2026-11-27T08:30:00-05:00",
       "impact": "Low",
-      "forecast": "0.7%",
+      "forecast": "0.5%",
       "previous": "0.6%"
     }
   ]
