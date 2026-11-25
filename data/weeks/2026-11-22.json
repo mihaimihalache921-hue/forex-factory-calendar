@@ -6,7 +6,7 @@
     "2026-11-22",
     "2026-11-27"
   ],
-  "fetched_at_utc": "2026-11-24T22:44:00+00:00",
+  "fetched_at_utc": "2026-11-25T09:05:08+00:00",
   "events": [
     {
       "title": "Core Retail Sales q/q",
@@ -329,6 +329,14 @@
       "previous": "3.37|1.1"
     },
     {
+      "title": "FOMC Member Bowman Speaks",
+      "country": "USD",
+      "date": "2026-11-25T07:25:00-05:00",
+      "impact": "Low",
+      "forecast": "",
+      "previous": ""
+    },
+    {
       "title": "Core PCE Price Index m/m",
       "country": "USD",
       "date": "2026-11-25T08:30:00-05:00",
@@ -405,7 +413,7 @@
       "country": "USD",
       "date": "2026-11-25T10:30:00-05:00",
       "impact": "Low",
-      "forecast": "",
+      "forecast": "2.0M",
       "previous": "3.4M"
     },
     {
@@ -566,7 +574,7 @@
       "date": "2026-11-27T05:33:00-05:00",
       "impact": "Low",
       "forecast": "",
-      "previous": ""
+      "previous": "4.49|1.6"
     },
     {
       "title": "German Buba President Nagel Speaks",
