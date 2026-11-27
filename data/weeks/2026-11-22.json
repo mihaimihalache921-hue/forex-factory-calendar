@@ -6,7 +6,7 @@
     "2026-11-22",
     "2026-11-27"
   ],
-  "fetched_at_utc": "2026-11-27T09:01:28+00:00",
+  "fetched_at_utc": "2026-11-27T21:36:39+00:00",
   "events": [
     {
       "title": "Core Retail Sales q/q",
@@ -587,7 +587,7 @@
     {
       "title": "Italian 10-y Bond Auction",
       "country": "EUR",
-      "date": "2026-11-27T05:33:00-05:00",
+      "date": "2026-11-27T05:05:00-05:00",
       "impact": "Low",
       "forecast": "",
       "previous": "4.49|1.6"
